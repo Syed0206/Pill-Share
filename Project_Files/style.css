@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  margin-top: 10%;
+}
+
+.wrapper h1{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #dcd8d8;
+  margin: 120px;
+  margin-bottom: 40px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #060606;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #81c644;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #000000;
+  margin: 15px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+.team .team_member .team_img img{
+  width: 180px;
+  height: 180px;
+  padding: 5px;
+}
+
+button{
+  color: #736a6a;
+  padding: 0;
+ border: none;
+background: none;
+  margin-top: 8px;
+  border-radius: 50%;
+}
+.dark-mode button{
+  color:#dcd8d8;
+}
+button:hover{
+  color:rgb(66, 64, 64);
+}
+.dark-mode button:hover{
+  color:white;
+}
+
+.dark-mode {
+  color: white;
+  background-image: -webkit-linear-gradient(black,black);
+}
+.dark-mode a{
+  color: #dcd8d8;
+}
+.dark-mode a:hover{
+  color:white;
+}
+.dark-mode .text{
+  color: #dcd8d8;
+}
+#change-color{
+  color: #060606;
+}
+.dark-mode #change-color{
+  color: #dcd8d8;
+}
+#themeToggle:hover{
+    background-color:green;
+}
